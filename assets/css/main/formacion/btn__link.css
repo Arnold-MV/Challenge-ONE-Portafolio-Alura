@@ -1,0 +1,9 @@
+.btn__link {
+  border: 1px solid #479dff;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.btn__link--bg {
+  background: #479dff;
+}

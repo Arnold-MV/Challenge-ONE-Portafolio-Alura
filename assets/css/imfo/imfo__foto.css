@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+  .imfo__foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 146px;
+  }
+
+  .foto__img {
+    width: 100%;
+    filter: grayscale(100%) contrast(80%);
+    -webkit-filter: grayscale(100%) contrast(80%);
+  }
+}
+@media screen and (min-width: 1360px) {
+  .imfo__foto {
+    width: 350px;
+  }
+}

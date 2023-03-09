@@ -1,0 +1,13 @@
+.formacion__img {
+  width: 150px;
+}
+
+.formacion__img--portafolio {
+  width: 100%;
+}
+
+@media screen and (min-width: 1360px) {
+  .formacion__img--portafolio {
+    width: 60%;
+  }
+}

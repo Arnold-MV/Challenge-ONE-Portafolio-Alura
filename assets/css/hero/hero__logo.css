@@ -1,0 +1,12 @@
+.hero__logo {
+  width: 4rem;
+  height: 4rem;
+  filter: drop-shadow(0px 0px 6px rgba(0, 162, 255, 0.308));
+}
+
+@media screen and (min-width: 1360px) {
+  .hero__logo {
+    width: 5rem;
+    height: 5rem;
+  }
+}

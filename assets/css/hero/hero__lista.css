@@ -1,0 +1,21 @@
+.hero__lista {
+  display: flex;
+  gap: 2rem;
+}
+.hero__item {
+  display: none;
+}
+
+.hero__item:hover {
+  border-bottom: 1px solid #479dff;
+}
+
+.hero__item--activo {
+  display: inline-block;
+}
+
+@media screen and (min-width: 1360px) {
+  .hero__item {
+    display: block;
+  }
+}

@@ -1,0 +1,12 @@
+.imfo__link {
+  font-weight: 600;
+}
+
+.bx-up-arrow-alt {
+  font-size: 1.1rem;
+  transform: rotate(50deg);
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+}

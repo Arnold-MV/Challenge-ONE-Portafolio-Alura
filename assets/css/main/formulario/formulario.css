@@ -1,0 +1,20 @@
+.formulario {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  gap: 1rem;
+}
+
+.formailario__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 1360px) {
+  .formulario {
+    flex-direction: row;
+    gap: 5rem;
+  }
+}

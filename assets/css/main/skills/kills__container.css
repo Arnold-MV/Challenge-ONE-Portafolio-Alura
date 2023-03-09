@@ -1,0 +1,22 @@
+.kills__container {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .kills__container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .kills__container {
+    gap: 5rem;
+  }
+}

@@ -1,0 +1,15 @@
+.hero {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .hero {
+    padding: 2rem 5rem;
+  }
+}
